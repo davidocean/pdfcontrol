@@ -11,6 +11,8 @@ def tile_round(image, size):
     for y in range(0, size[1], image.height):
         for x in range(0, size[0], image.width):
             tile_image.paste(image, (x, y))
+
+            #hehe
     return tile_image
 
 
